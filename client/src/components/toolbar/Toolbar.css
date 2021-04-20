@@ -1,0 +1,40 @@
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    min-height: 50px;
+    /* height: 15%; */
+    background-color: #EFEFEF;
+    box-shadow: var(--default-shadow);
+  }
+  
+  .logoContainer {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    box-shadow: var(--default-shadow);
+    background-color: white;
+    margin: 10px;
+  }
+  
+  .logo {
+    background-image: url("../../assets/logo192.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+  }
+  
+  #serachBox {
+    height: 60%;
+    border-style: hidden;
+    border-radius: 25px;
+    box-shadow: var(--default-shadow);
+  }

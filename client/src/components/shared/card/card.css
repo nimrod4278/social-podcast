@@ -1,0 +1,10 @@
+.cardRoot {
+    background-color: var(--card-color);
+    box-shadow: var(--default-shadow);
+    margin: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
